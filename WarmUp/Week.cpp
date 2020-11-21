@@ -9,28 +9,28 @@ int main() {
         {switch(n) {
             case 1:
                 cout<<"monday";
-                break;
+                exit(0);
             case 2:
                 cout<<"Tuesday";
-                break;
+                exit(0);
             case 3:
                 cout<<"Wednesday";
-                break;
+                exit(0);
             case 4:
                 cout<<"Thursday";
-                break;
+                exit(0);
             case 5:
                 cout<<"Friday";
-                break;
+                exit(0);
             case 6:
                 cout<<"Saturday";
-                break;
+                exit(0);
             case 7:
                 cout<<"Sunday";
-                break;
+                exit(0);
             default:
-        
-            exit(0);
+                cout<<"Wrong choice";
+                exit(0);
         }
         }
     return 0;
